@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1637f290b0634027a684e652475524c, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  stroyID: 2
+  stroyName: Story 03
+  stroyDescription: Story 03 Aciklamasi
+  storyIconSprite: {fileID: 21300000, guid: 695efc9f83f4a3d4c911ad8e747c272d, type: 3}
+  playerThisRoundSide: defender
+  userName: "K\xF6t\xFC Kumandan"
+  level: 1
+  profileImageSpriteName: KotuKumandan3
+  toplamaCannonID: temelTipCannon_0|0
+  cikartmaCannonID: temelTipCannon_0|0
+  carpmaCannonID: temelTipCannon_0|0
+  bolmeCannonID: temelTipCannon_0|0
+  attackerGameDeckInfo: teymenLinda_1|0#eskiKurtLuke_0|0#trozanSavascisi_0|0#
+  totalToplamaQuestionCount: 1
+  totalCikartmaQuestionCount: 1
+  totalCarpmaQuestionCount: 1
+  totalBolmeQuestionCount: 1
+  correctAnsweredToplamaQuestionCount: 0
+  correctAnsweredCikartmaQuestionCount: 0
+  correctAnsweredCarpmaQuestionCount: 0
+  correctAnsweredBolmeQuestionCount: 0
+  BeforeStoryTalk:
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Buras\u0131 <b>Astersan</b> b\xF6lgesi, genel olarak rak\u0131m\u0131
+      y\xFCksek ve da\u011Fl\u0131k bir b\xF6lge olarak bilinir. Yani \xFClkedeki
+      r\xFCzgar enerjisi i\xE7in uygun nadi yerlerden biridir."
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Astersan
+    IconsID: 
+  - InTalkPersonName: Teymen Linda
+    TalkText: "R\xFCzgar enerjisi, uygun yerlere kurulan ve r\xFCzgar g\xFCl\xFCne
+      benzeyen t\xFCrbinlerin \u015Fiddetli r\xFCzgar g\xFCc\xFCyle d\xF6nd\xFCr\xFClmesi
+      sayesinde \xFCretilir. Tamamen do\u011Faya dost, yenilenebilir bir enerji \xE7e\u015Fididir."
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Astersan
+    IconsID: RuzgarEnerjisi_0
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Eskiden buradaki t\xFCm r\xFCzgar tir\xFCb\xFCnleri son g\xFC\xE7leriyle
+      d\xF6ner ve enerji \xFCretirlerdi... Ancak \u015Fimdi kapat\u0131ld\u0131lar
+      ve i\u015Fgal g\xFC\xE7leri taraf\u0131ndan yerlerine k\xF6m\xFCr santralleri
+      kuruldular..."
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Astersan
+    IconsID: RuzgarEnerjisi_1
+  - InTalkPersonName: Usta Jiron
+    TalkText: "Eskiden bu da\u011Flara meditasyon yapmak i\xE7in gelirdim... Ama bir
+      de \u015Fimdi bak\u0131n etraf\u0131 delik de\u015Fik edilmi\u015F ve her yeri
+      kara dumanlar ile kaplanm\u0131\u015F..."
+    InTalkPersonID: UstaJiron
+    BackgroundID: Astersan
+    IconsID: 
+  - InTalkPersonName: "K\xF6t\xFC Kumandan"
+    TalkText: 'HA HA HA! Demek buraya kadar gelebildiniz...
+
+'
+    InTalkPersonID: KotuKumandan3
+    BackgroundID: Astersan
+    IconsID: 
+  - InTalkPersonName: "K\xF6t\xFC Kumandan"
+    TalkText: "Yapt\u0131klar\u0131n\u0131z\u0131 duydum ama buras\u0131 sizin son
+      dura\u011F\u0131n\u0131z olacak! Sald\u0131r\u0131n!"
+    InTalkPersonID: KotuKumandan3
+    BackgroundID: Astersan
+    IconsID: 
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Demek d\xFC\u015Fman bizi bekliyormu\u015F... Hemen bir savunma d\xFCzeni
+      olu\u015Fturmal\u0131y\u0131z!\n\nNe olursa olsun bu b\xF6lgeyi de i\u015Fgalcilerin
+      elinden kurtaraca\u011F\u0131z!"
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Astersan
+    IconsID: 
+  AfterWinStoryTalk:
+  - InTalkPersonName: Teymen Linda
+    TalkText: "\u0130\u015Fte bir kez daha ba\u015Fard\u0131n\u0131z kumandan %USERNAME%!"
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Astersan
+    IconsID: 
+  AfterLoseStoryTalk:
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Olamaz... D\xFC\u015Fman bir kez daha bize \xFCst\xFCnl\xFCk kurmay\u0131
+      ba\u015Fard\u0131..."
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Farma
+    IconsID: 
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Ama burada pes edemeyiz!\n\nNe olursa olsun, <b>Asteran</b> b\xF6lgesini
+      kurtarmal\u0131y\u0131z! Ama belki de, tekrar denemeden \xF6nce plan\u0131m\u0131z\u0131
+      g\xF6zden ge\xE7irmeliyiz... "
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Asteran
+    IconsID: 
+  - InTalkPersonName: Bilgi
+    TalkText: "*<b>Deseni D\xFCzenle</b> butonu sayesinde oyundaki stratejini planlayabilirsin!"
+    InTalkPersonID: 
+    BackgroundID: Asteran
+    IconsID: 

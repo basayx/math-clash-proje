@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1637f290b0634027a684e652475524c, type: 3}
+  m_Name: 0
+  m_EditorClassIdentifier: 
+  stroyID: 0
+  stroyName: Story 00
+  stroyDescription: Story 00 Aciklamasi
+  storyIconSprite: {fileID: 21300000, guid: 695efc9f83f4a3d4c911ad8e747c272d, type: 3}
+  playerThisRoundSide: defender
+  userName: "K\xF6t\xFC Kumandan"
+  level: 1
+  profileImageSpriteName: KotuKumandan0
+  toplamaCannonID: temelTipCannon_0|0
+  cikartmaCannonID: temelTipCannon_0|0
+  carpmaCannonID: temelTipCannon_0|0
+  bolmeCannonID: temelTipCannon_0|0
+  attackerGameDeckInfo: teymenLinda_1|0#eskiKurtLuke_0|0#trozanSavascisi_0|0#
+  totalToplamaQuestionCount: 1
+  totalCikartmaQuestionCount: 1
+  totalCarpmaQuestionCount: 1
+  totalBolmeQuestionCount: 1
+  correctAnsweredToplamaQuestionCount: 0
+  correctAnsweredCikartmaQuestionCount: 0
+  correctAnsweredCarpmaQuestionCount: 0
+  correctAnsweredBolmeQuestionCount: 0
+  BeforeStoryTalk:
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Ah sonunda... Sonunda, yeti\u015Febildiniz kumandan %USERNAME%."
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Veha
+    IconsID: 
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Buras\u0131, Geli\u015Fim \u015Eehri: <b>Veha</b>.\n\n\u015Eu anda
+      \xFClkede kalan tek ba\u011F\u0131ms\u0131z yenilenebilir enerji \u015Fehri
+      buras\u0131... Y\xFCzy\u0131llardan beri teknolojinin kalbi bu liman \u015Fehrinde
+      at\u0131yor."
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Veha
+    IconsID: 
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Ancak b\xF6yle giderse bu \u015Fehir de k\xF6t\xFC g\xFC\xE7ler taraf\u0131ndan
+      ele ge\xE7irilecek!\n\nAyn\u0131 \xFClkenin geri kalan di\u011Fer t\xFCm \u015Fehirleri
+      gibi..."
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Veha
+    IconsID: 
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Eskiden \xFClkemiz teknolojinin ve do\u011Fan\u0131n bar\u0131\u015F
+      i\xE7erisinde ya\u015Fad\u0131\u011F\u0131 bir yerdi. Ancak ge\xE7ti\u011Fimiz
+      y\u0131llarda bir grup i\u015Fgalci, do\u011Fal kaynaklar\u0131m\u0131z\u0131
+      ele ge\xE7irmek i\xE7in ak\u0131nlar d\xFCzenlemeye ba\u015Flad\u0131..."
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Veha
+    IconsID: 
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Ele ge\xE7irdikleri do\u011Fal enerji kaynaklar\u0131m\u0131z\u0131
+      yerle bir ediyor ve do\u011Fay\u0131 kirleten petrol t\xFCrevi sistemlere \xE7eviriyorlar!\n\nEskiden
+      her yeri yemye\u015Fil olan bu \xFClkenin berrak g\xF6ky\xFCz\xFC, art\u0131k
+      kara karbonmonoksit dumanlar\u0131 ile kapl\u0131..."
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Veha
+    IconsID: CO2_0
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Ve e\u011Fer bir \u015Feyler yapmazsak geriye kalan son ba\u011F\u0131ms\u0131z
+      enerji \u015Fehri <b>Veha</b> da onlar\u0131n eline d\xFC\u015Fecek...\n\n\u0130\u015Fte
+      bu y\xFCzden sizi \xE7a\u011F\u0131rd\u0131k. Belki siz... Hatta belki de sadece
+      siz... Bizi bu durumdan kurtarabilirsiniz!"
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Veha
+    IconsID: 
+  - InTalkPersonName: "K\xF6t\xFC Kumandan"
+    TalkText: "<b>Veha</b> \u015Fehrini hemen bize teslim edin! Ka\xE7acak yeriniz
+      kalmad\u0131!"
+    InTalkPersonID: KotuKumandan0
+    BackgroundID: Veha
+    IconsID: 
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Sad\u0131k bir grup adam\u0131m ve ben emrinizde olaca\u011F\u0131z...
+      D\xFC\u015Fman g\xFC\xE7leri yak\u0131nda kap\u0131m\u0131zda olurlar...\n\nSize
+      g\xFCveniyoruz kumandan %USERNAME%!"
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Veha
+    IconsID: 
+  AfterWinStoryTalk:
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Ah... Sizin komutan\u0131zda, bunu ba\u015Farabilece\u011Fimizi biliyordum!"
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Veha
+    IconsID: 
+  - InTalkPersonName: Usta Jiron
+    TalkText: "Size olan g\xFCvenimizi bo\u015Fa \xE7\u0131karmad\u0131n\u0131z efendim..."
+    InTalkPersonID: UstaJiron
+    BackgroundID: Veha
+    IconsID: 
+  - InTalkPersonName: Teymen Linda
+    TalkText: "<b>Veha'dan</b> d\xFC\u015Fman\u0131 ba\u015Far\u0131yla p\xFCsk\xFCrtt\xFC\u011F\xFCm\xFCze
+      g\xF6re, s\u0131rada di\u011Fer b\xF6lgeleri ve \u015Fehirleri kurtarmak var!"
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Veha
+    IconsID: 
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Hemen bat\u0131m\u0131zdaki Geri D\xF6n\xFC\u015F\xFCm Tesisleri: <b>Sern
+      Adalar\u0131</b>, ba\u015Flamak i\xE7in iyi bir nokta olabilir.\n\nOray\u0131
+      kurtarmak stratejik olarak bize \xFCst\xFCnl\xFCk sa\u011Flayacakt\u0131r!"
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Veha
+    IconsID: 
+  AfterLoseStoryTalk:
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Olamaz... D\xFC\u015Fman bir kez daha bize \xFCst\xFCnl\xFCk kurmay\u0131
+      ba\u015Fard\u0131..."
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Veha
+    IconsID: 
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Ama burada pes edemeyiz!\n\nNe olursa olsun, <b>Veha</b> \u015Fehrini
+      savunmal\u0131y\u0131z! "
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Veha
+    IconsID: 

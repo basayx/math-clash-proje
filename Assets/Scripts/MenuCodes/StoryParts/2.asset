@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1637f290b0634027a684e652475524c, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  stroyID: 2
+  stroyName: Story 02
+  stroyDescription: Story 02 Aciklamasi
+  storyIconSprite: {fileID: 21300000, guid: 695efc9f83f4a3d4c911ad8e747c272d, type: 3}
+  playerThisRoundSide: attacker
+  userName: "K\xF6t\xFC Kumandan"
+  level: 1
+  profileImageSpriteName: KotuKumandan2
+  toplamaCannonID: temelTipCannon_0|0
+  cikartmaCannonID: temelTipCannon_0|0
+  carpmaCannonID: temelTipCannon_0|0
+  bolmeCannonID: temelTipCannon_0|0
+  attackerGameDeckInfo: teymenLinda_1|0#eskiKurtLuke_0|0#trozanSavascisi_0|0#
+  totalToplamaQuestionCount: 1
+  totalCikartmaQuestionCount: 1
+  totalCarpmaQuestionCount: 1
+  totalBolmeQuestionCount: 1
+  correctAnsweredToplamaQuestionCount: 0
+  correctAnsweredCikartmaQuestionCount: 0
+  correctAnsweredCarpmaQuestionCount: 0
+  correctAnsweredBolmeQuestionCount: 0
+  BeforeStoryTalk:
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Buras\u0131 <b>Farma</b>, \xFClkenin en b\xFCy\xFCk g\xFCne\u015F enerjisi
+      tesisi burada yer al\u0131yor. Buradaki tesisler sayesinde onlarca \u015Fehre
+      enerji sa\u011Flan\u0131yor."
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Farma
+    IconsID: 
+  - InTalkPersonName: Teymen Linda
+    TalkText: "G\xFCne\u015F taraf\u0131ndan g\xF6nderilen \u0131\u015F\u0131nlar
+      onlarca g\xFCne\u015F paneli taraf\u0131ndan yakalan\u0131yor ve tamamen do\u011Fa
+      dostu bir enerjiye d\xF6n\xFC\u015Ft\xFCr\xFCl\xFCyor..."
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Farma
+    IconsID: GunesEnerjisi_0
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Eskiden burada yer alan g\xFCne\u015F panelleri, berrak g\xF6k y\xFCz\xFCm\xFCzden
+      s\xFCz\xFClen g\xFCne\u015F \u0131\u015F\u0131nlar\u0131 ile son g\xFC\xE7te
+      \xE7al\u0131\u015F\u0131rd\u0131; fakat \u015Fimdi i\u015Flagcilerin kurduklar\u0131
+      k\xF6m\xFCr santralleri sebebiyle g\xF6k y\xFCz\xFC koca bir duman bulutu ile
+      kapl\u0131..."
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Farma
+    IconsID: GunesEnerjisi_1
+  - InTalkPersonName: Eski Kurt Luke
+    TalkText: "Eskiden buran\u0131n yem ye\u015Fil \xE7ay\u0131rlar\u0131na uzan\u0131p
+      g\xF6k y\xFCz\xFCn\xFCn engin mavili\u011Fi i\xE7ime \xE7ekti\u011Fimi hat\u0131rl\u0131yorum...
+      Buralar\u0131 \u015Fimdi b\xF6yle g\xF6rmek ger\xE7ekten y\xFCre\u011Fimi da\u011Fl\u0131yor..."
+    InTalkPersonID: EskiKurtLuke
+    BackgroundID: Farma
+    IconsID: 
+  - InTalkPersonName: Teymen Linda
+    TalkText: "\u015Eimdi sizin sayenizde buray\u0131 eski g\xFCnlerine kavu\u015Fturabiliriz,
+      kumandan %USERNAME%!"
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Farma
+    IconsID: 
+  - InTalkPersonName: "K\xF6t\xFC Kumandan"
+    TalkText: "Geri \xE7ekilin pis sald\u0131rganlar!"
+    InTalkPersonID: KotuKumandan2
+    BackgroundID: Farma
+    IconsID: 
+  AfterWinStoryTalk:
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Sayenizde buralar bir kez daha yem ye\u015Fil \xE7ay\u0131rlarla kapl\u0131
+      olacak!\n\nS\u0131radaki hedefimiz, R\xFCzgar Enerjisi Tesisleri: <b>Asteran</b>
+      b\xF6lgesi!"
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Farma
+    IconsID: 
+  AfterLoseStoryTalk:
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Olamaz... D\xFC\u015Fman bir kez daha bize \xFCst\xFCnl\xFCk kurmay\u0131
+      ba\u015Fard\u0131..."
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Farma
+    IconsID: 
+  - InTalkPersonName: Teymen Linda
+    TalkText: "Ama burada pes edemeyiz!\n\nNe olursa olsun, <b>Farma</b> b\xF6lgesini
+      kurtarmal\u0131y\u0131z! Ama belki de, tekrar denemeden \xF6nce plan\u0131m\u0131z\u0131
+      g\xF6zden ge\xE7irmeliyiz... "
+    InTalkPersonID: TeymenLinda
+    BackgroundID: Farma
+    IconsID: 
+  - InTalkPersonName: Bilgi
+    TalkText: "*Deseni D\xFCzenle butonu sayesinde oyundaki stratejini planlayabilirsin!"
+    InTalkPersonID: 
+    BackgroundID: Farma
+    IconsID: 
